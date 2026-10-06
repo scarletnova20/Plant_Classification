@@ -1,0 +1,7 @@
+tensorflow==2.17.1
+numpy==1.26.4
+Pillow
+matplotlib
+scikit-learn
+scipy<1.16
+contourpy<1.4

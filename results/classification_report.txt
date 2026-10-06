@@ -1,0 +1,27 @@
+Framework: PyTorch
+Split: validation; mode: diagnostic_source_group_80_20
+Baseline results on this dataset; not a real-world performance estimate.
+
+Checkpoint epoch: 23
+Loss: 1.4408
+Accuracy: 0.5417 (26/48)
+
+                                              precision    recall  f1-score   support
+
+               Plant_001_Variegated_Dracaena       0.00      0.00      0.00         1
+         Plant_003_Variegated_Umbrella_Plant       0.00      0.00      0.00         4
+                  Plant_004_Purple_Cordyline       0.00      0.00      0.00         4
+Plant_006_White_Flowering_Shrub_Unidentified       0.33      1.00      0.50         2
+                   Plant_007_Mimusops_elengi       0.00      0.00      0.00         1
+                  Plant_008_Mangifera_indica       0.50      0.50      0.50         2
+           Plant_009_Dragon_Tree_Dracaena_sp       0.00      0.00      0.00         4
+                  Plant_010_Rosa_x_damascene       0.70      1.00      0.82         7
+               Plant_011_Codiaeum_variegatum       1.00      1.00      1.00         4
+                    Plant_012_Globe_Amaranth       0.00      0.00      0.00         4
+                    Plant_013_Lantana_camara       0.40      0.67      0.50         6
+       Plant_014_Pink_Rain_Lily_Zephyranthes       0.40      0.80      0.53         5
+                    Plant_015_Ocimum_sanctum       1.00      1.00      1.00         4
+
+                                    accuracy                           0.54        48
+                                   macro avg       0.33      0.46      0.37        48
+                                weighted avg       0.40      0.54      0.45        48

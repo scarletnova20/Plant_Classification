@@ -1,0 +1,25 @@
+Split: validation; mode: diagnostic_source_holdout
+Baseline results on this dataset; not a real-world performance estimate.
+
+Loss: 2.6295
+Accuracy: 0.2174
+
+                                              precision    recall  f1-score   support
+
+               Plant_001_Variegated_Dracaena       0.00      0.00      0.00         1
+         Plant_003_Variegated_Umbrella_Plant       0.00      0.00      0.00         4
+                  Plant_004_Purple_Cordyline       0.00      0.00      0.00         4
+Plant_006_White_Flowering_Shrub_Unidentified       0.25      1.00      0.40         1
+                   Plant_007_Mimusops_elengi       0.00      0.00      0.00         1
+                  Plant_008_Mangifera_indica       0.25      0.50      0.33         2
+           Plant_009_Dragon_Tree_Dracaena_sp       0.00      0.00      0.00         4
+                  Plant_010_Rosa_x_damascene       0.11      1.00      0.20         1
+               Plant_011_Codiaeum_variegatum       0.50      1.00      0.67         1
+                    Plant_012_Globe_Amaranth       0.00      0.00      0.00         1
+                    Plant_013_Lantana_camara       0.00      0.00      0.00         1
+       Plant_014_Pink_Rain_Lily_Zephyranthes       0.25      1.00      0.40         1
+                    Plant_015_Ocimum_sanctum       0.00      0.00      0.00         1
+
+                                    accuracy                           0.22        23
+                                   macro avg       0.10      0.35      0.15        23
+                                weighted avg       0.07      0.22      0.10        23

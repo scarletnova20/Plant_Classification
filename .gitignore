@@ -1,0 +1,24 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Large local source-download and generation staging area
+data_staging/
+
+# Document rendering and local QA helpers
+docs/_qa_tools/
+docs/_rendered*/
+~$*.docx
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
